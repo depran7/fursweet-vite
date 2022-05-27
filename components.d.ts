@@ -5,18 +5,14 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Button: typeof import('./src/components/elements/Button.vue')['default']
     Collections: typeof import('./src/components/pages/LandingPage/sections/Collections.vue')['default']
     Container: typeof import('./src/components/elements/Container.vue')['default']
     Decor: typeof import('./src/components/pages/LandingPage/sections/Decor.vue')['default']
-    Footer: typeof import('./src/components/pages/LandingPage/sections/Footer.vue')['default']
     FurButton: typeof import('./src/components/elements/FurButton.vue')['default']
     FurFooter: typeof import('./src/components/pages/LandingPage/sections/FurFooter.vue')['default']
-    FurH2: typeof import('./src/components/elements/FurH2.vue')['default']
     FurNavbar: typeof import('./src/components/elements/FurNavbar.vue')['default']
     Hero: typeof import('./src/components/pages/LandingPage/sections/Hero.vue')['default']
     LandingPage: typeof import('./src/components/pages/LandingPage/LandingPage.vue')['default']
-    Navbar: typeof import('./src/components/elements/Navbar.vue')['default']
     Product: typeof import('./src/components/pages/LandingPage/sections/Product.vue')['default']
     ProductCard: typeof import('./src/components/elements/ProductCard.vue')['default']
     Subcribe: typeof import('./src/components/pages/LandingPage/sections/Subcribe.vue')['default']

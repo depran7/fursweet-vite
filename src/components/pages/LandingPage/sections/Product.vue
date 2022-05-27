@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import Container from "@/components/elements/Container.vue";
-import ProductCard from "@/components/elements/ProductCard.vue";
-
 let productDummies = [
   {
     img: "/dummy/product-1.png",
@@ -19,27 +16,6 @@ let productDummies = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/dummy/product-2.png",
   },
-  // {
-  //   img: "/dummy/product-3.png",
-  //   name: "Product 3",
-  //   price: "$300",
-  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //   link: "/dummy/product-3.png",
-  // },
-  // {
-  //   img: "/dummy/product-4.png",
-  //   name: "Product 4",
-  //   price: "$400",
-  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //   link: "/dummy/product-4.png",
-  // },
-  // {
-  //   img: "/dummy/product-5.png",
-  //   name: "Product 5",
-  //   price: "$500",
-  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //   link: "/dummy/product-5.png",
-  // },
 ];
 </script>
 

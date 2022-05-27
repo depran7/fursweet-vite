@@ -1,6 +1,3 @@
-<script setup lang="ts">
-import Container from "@/components/elements/Container.vue";
-</script>
 <template>
   <Container class="flex justify-between items-center my-10 bg-no-repeat">
     <img src="/assets/images/img-decor.png" alt="" />

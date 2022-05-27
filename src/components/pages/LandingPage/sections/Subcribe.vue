@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import Container from "@/components/elements/Container.vue";
-</script>
-
 <template>
   <Container class="bg-accent rounded-xl py-14 px-16 flex items-center justify-between flex-wrap">
     <div class="text-dark">
